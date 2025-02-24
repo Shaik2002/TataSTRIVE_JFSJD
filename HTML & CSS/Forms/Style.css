@@ -1,0 +1,82 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #3b8d99, #6c93c1);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+h2 {
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+}
+form {
+    width: 100%;
+    max-width: 500px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(12px);
+    box-sizing: border-box;
+}
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.85);
+    font-size: 16px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+    color: #333;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #3b8d99, #6c93c1);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+button:hover {
+    background: linear-gradient(135deg, #6c93c1, #3b8d99);
+    transform: scale(1.05);
+}
+a {
+    color: #3b8d99;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color: #6c93c1;
+    text-decoration: underline;
+}
+input::placeholder, select::placeholder {
+    color: #bbb;
+    font-style: italic;
+}
