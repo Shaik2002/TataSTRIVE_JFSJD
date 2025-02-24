@@ -1,0 +1,38 @@
+Java was created by James Gosling at Sun Microsystems in 1991, officially released in 1995. It evolved with major updates like Java SE 8 (Lambdas) and Java SE 17 (LTS).
+Platform-Independent – Java programs run on any platform without modification using the (JVM), following the "Write Once, Run Anywhere" (WORA) principle.  
+Simple & Readable – Java syntax is similar to C/C++, but it removes complexities like pointers and manual memory management.  
+Robust & Secure – Features like strong memory management, exception handling, and a security manager make Java reliable and safe for applications.  
+JVM (Java Virtual Machine): Runs Java bytecode.  
+JRE (Java Runtime Environment): Includes JVM + libraries for execution.  
+JDK (Java Development Kit): Includes JRE + development tools (compiler, debugger, etc.).  
+
+if…else
+if (Boolean Expression)
+{
+Statement
+}
+else
+{
+Statement
+}
+Examples: 
+a. Voting Eligibility (a>=18)
+b. Odd or Even (a%2==0)
+
+if…else…if
+if (Boolean Expression)
+{
+Statement
+}
+else if (Boolean Expression)
+{
+Statement
+}
+else
+{
+Statement
+}
+Example: 
+a. Highest Number (a>=b && a>=c) (b>=a && b>=c)
+Leap Year
+if(year % 4 == 0 && year % 100 != 0 || year % 400 == 0)
