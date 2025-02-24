@@ -1,0 +1,8 @@
+React.js is a JavaScript library used for building fast and interactive user interfaces (UI). 
+It is component-based, declarative, and efficient, making it popular for modern web development.  
+
+Component-Based – UI is built using reusable components.  
+Virtual DOM – Improves performance by updating only changed parts of the UI.  
+JSX (JavaScript XML) – Allows writing HTML inside JavaScript.  
+Unidirectional Data Flow– Makes data management predictable.  
+Hooks– Enables functional components to use state and lifecycle features.
