@@ -1,0 +1,49 @@
+Encapsulation  
+- Wrapping of data into single unit. 
+class BankAccount {  
+    private double balance = 1000;  // Private variable  
+
+    public double getBalance() { return balance; }  // Getter  
+    public void deposit(double amount) { balance += amount; }  // Setter  
+}
+
+Inheritance  
+- Allows a child class to acquire properties of parent class (extends keyword).  
+class Animal {  
+    void eat() { System.out.println("Eating..."); }  
+}  
+class Dog extends Animal {  
+    void bark() { System.out.println("Barking..."); }  
+}  
+public class Main {  
+    public static void main(String[] args) {  
+        Dog d = new Dog();  
+        d.eat();  // Inherited method  
+        d.bark();  
+    }  
+}
+
+Polymorphism  
+- Method Overloading: Multiple methods with the same name but different parameters.  
+- Method Overriding: A subclass redefines a method from its superclass.  
+class MathUtils {  
+    int add(int a, int b) { return a + b; }  // Overloaded method  
+    int add(int a, int b, int c) { return a + b + c; }  
+}  
+
+class Parent {  
+    void show() { System.out.println("Parent class"); }  
+}  
+class Child extends Parent {  
+    @Override  
+    void show() { System.out.println("Child class"); }  // Overriding  
+}
+
+Abstraction  
+- Hides implementation details using abstract classes or interfaces and only essential features are exposed.  
+abstract class Vehicle {  
+    abstract void start();  // Abstract method  
+}  
+class Car extends Vehicle {  
+    void start() { System.out.println("Car starts with a key"); }  
+}
