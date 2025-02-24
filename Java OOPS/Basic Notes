@@ -1,0 +1,33 @@
+OOP - Object Oriented Programming
+OOP is Methodology/Paradigm to design a program using Classes and Objects.
+Deals with real world problems
+a. Abstraction - Hiding the internal features and Displaying the functionality
+b. Polymorphism - Performing single task in Multiple ways
+c. Inheritance - Inheriting the properties from parent class to child class
+d. Encapsulation - Binding/Raping of data into a single unit
+
+Object - Real World Entity - An entity has that has state and behaviour is known as object
+State : Represents data/attributes
+Behaviour : Represents Methods(Functionality)
+Object is instance of a class that executes the class
+Can Create Multiple objects for a Class
+new is keyword used to create an object [ ClassName ObjectName = new ClassName(); ]
+
+Class - Storage Container - It is a blueprint from which individual objects are created
+
+Methods - Collection of statements that are grouped to perform an operation
+Must be declared within a class
+Data Can be passed as a parameter in method
+It will get executed once it is called, it should be followed by ()
+PreDefined and UserDefined
+
+Constructor
+
+Method Overloading{Static} - Compile Time [Ability to define multiple methods within the same class
+ with same name but with different parameter]
+Method Overriding{Dynamic} - Run  Time [Methods having same name and same/different parameters
+within both parent and child class it overrides it]
+
+class - class --> Extends
+interface - class --> Implements [Multiple Inheritance]
+interface - interface --> Extends
