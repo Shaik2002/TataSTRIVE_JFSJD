@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>USER ID</title>
+  <style>
+    .B1,.B2 {
+      padding: 15px 30px;
+      font-size: 18px;
+      width: 250px;
+      height: 50px;
+    }
+  </style>
+</head>
+<body>
+<center><button id="head" onclick="text()"><h1>HELLO, Welcome Back!!</h1></button></center>
+<h1 id="name">Shaik Mohammed Ibrahim</h1>
+<button class="B1" onclick="userid()">Check User ID</button>
+<button class="B2" onclick="id()">Generate New User ID</button>
+<div id="new"></div>
+<script>
+   document.querySelector(".B1").style.backgroundColor="#b35dc2";
+   document.querySelector(".B2").style.backgroundColor="#b35dc2";
+   document.getElementById("head").addEventListener("click", function(){
+   document.body.style.backgroundColor = "#cfa7d6";
+   });
+
+   function text(){
+   document.getElementById("head").innerHTML = "<h1>Generate your User ID</h1>";
+   }
+
+   function userid(){
+   document.getElementById("name").innerText = "Your User Id is shaikibrahim.02";
+   }
+
+   let usernames = ["shaikibrahim02", "shaik.ibrahim02", "ibrahimshaik.02", "ibrahim.shaik02",
+   "shaik02.ibrahim", "ibrahim02.shaik", "02.shaikibrahim", "shaik02ibrahim"];
+   let i = 0;
+   function id() {
+       if (i < usernames.length) {
+           let pg = document.createElement("p");
+           pg.innerText = usernames[i];
+           pg.style.fontSize="22px";
+           document.getElementById("new").appendChild(pg);
+           i++;
+       } else {
+           alert("All Possible Usernames Generated.")
+       }
+   }
+   document.querySelector(".B2").addEventListener("click", id);
+</script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Basics</title>
+</head>
+<body>
+<h1 id="heading">HELLO, Good Morning!</h1>
+<button onclick="changeText()" class="button1">Click Me</button>
+
+<h2 id="name">Shaik Mohammed Ibrahim</h2>
+<button onclick="userid()" class="button2">Check ID</button>
+<button onclick="suggestion()" class="button3">Other Suggestions</button>
+<div id="newid"></div>
+<script>
+    function changeText(){
+    document.getElementById("heading").innerText="Welcome to JavaScript Class"
+    }
+
+    function userid(){
+    document.getElementById("name").innerText="Your User Id is shaikibrahim.02"
+    }
+
+    function suggestion(){
+    let s = document.createElement("p")
+    s.innerText="shaik.ibrahim02, shaik02.ibrahim, ibrahim.02shaik, ibrahimshaik.02"
+    document.getElementById("newid").appendChild(s);
+    }
+
+    document.querySelector(".button1").style.backgroundColor="#D1C0E7";
+    document.querySelector(".button2").style.backgroundColor="#D1C0E7";
+    document.querySelector(".button3").style.backgroundColor="#D1C0E7";
+</script>
+</body>
+</html>

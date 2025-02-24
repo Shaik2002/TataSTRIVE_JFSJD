@@ -1,0 +1,12 @@
+{
+  "name": "JavaScript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/P25_ModulesImport.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9"
+  }
+}
