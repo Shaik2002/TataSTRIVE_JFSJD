@@ -1,0 +1,20 @@
+Arrays
+   - Arrays are fixed-size, homogeneous collections of elements.  
+   - Supports 1D, 2D, and multi-dimensional arrays.  
+   - Java provides the `Arrays` class for utility methods like `sort()`, `binarySearch()`, etc.  
+
+Multithreading  
+   - Java supports concurrent execution using `Thread` and `Runnable`.  
+   - Threads can be created by extending `Thread` or implementing `Runnable`.  
+   - Synchronization prevents race conditions using `synchronized` blocks.  
+
+Java 8 Features  
+   - Lambda Expressions – Enables functional programming and concise code.  
+   - Streams API – Supports filtering, mapping, and reducing collections efficiently.  
+   - Default & Static Methods – Interfaces can have method implementations.  
+   - Optional Class – Helps avoid `NullPointerException`.  
+
+Exception Handling  
+   - Java uses `try`, `catch`, `finally`, `throw`, and `throws` for error handling.  
+   - Checked exceptions (like `IOException`) must be handled at compile-time.  
+   - Unchecked exceptions (like `NullPointerException`) occur at runtime.  
