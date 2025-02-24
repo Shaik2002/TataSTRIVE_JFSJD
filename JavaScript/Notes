@@ -1,0 +1,20 @@
+JavaScript is a lightweight, interpreted programming language used for making web pages interactive. 
+It runs in browsers and enables dynamic content manipulation, event handling, and asynchronous programming.  
+
+JavaScript Basics
+- JavaScript is client-side(runs in browsers) but can also be used on the server-side (Node.js).  
+- It follows the ECMAScript standard.  
+- Can be included inline, internally in <script> tags, or externally via .js files.  
+
+DOM (Document Object Model) Manipulation  
+- JavaScript can access and modify HTML elements dynamically.  
+- Methods like getElementById(), querySelector(), innerHTML, and addEventListener() are used.  
+
+Events & Event Handling
+- JavaScript can respond to user actions like clicks, keypresses, form submissions.  
+- Events can be handled using onclick, onchange, or addEventListener().  
+
+Asynchronous JavaScript  
+- Callbacks: Functions passed as arguments to be executed later.  
+- Promises: Handle asynchronous tasks (.then(), .catch()).  
+- Async/Await: Cleaner syntax for handling asynchronous code.  
