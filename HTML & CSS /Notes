@@ -1,0 +1,47 @@
+HTML (HyperText Markup Language)  
+Used for: Structuring web pages.
+Common Tags:  
+  - Headings: <h1> to <h6>  
+  - Paragraph: <p>  
+  - Links: <a href="url">Click Here</a>
+  - Images: <img src="image.jpg" alt="description">  
+  - Lists: <ul> (unordered), <ol> (ordered), <li> (list items)  
+  - Tables: <table>, <tr>, <td>
+  - Forms: <form>, <input>, <button>, <textarea>  
+
+CSS (Cascading Style Sheets)  
+Used for: Styling web pages.  
+Types of CSS:
+Inline: style="color: red;"  
+Internal: Inside <style> in the <head> section  
+External: Linked using <link rel="stylesheet" href="styles.css">  
+
+CSS Selectors  
+Element Selector: h1 { color: red; }  
+Class Selector: .myClass { font-size: 20px; }  
+ID Selector: #myId { background-color: yellow; }  
+
+Box Model  
+Elements in CSS have:  
+Margin (outer space)  
+Border (surrounding the content)  
+Padding (inner space)  
+Content (text, images, etc.)  
+
+Responsive Design:  
+Media Queries allow different styles for different screen sizes.  
+Flexbox & Grid are used for layout management. 
+
+Bootstrap 
+is a popular CSS framework used to create responsive and mobile-first websites quickly. It includes predefined CSS classes, components, and JavaScript plugins.  
+Getting Started with Bootstrap  
+- Bootstrap can be included via CDN or installed using npm.  
+- It provides a standardized way to design web pages without writing much CSS.  
+Bootstrap Components  
+- Buttons: Pre-styled buttons in different colors and sizes.  
+- Navbar: A responsive navigation bar that collapses on smaller screens.  
+- Cards: A flexible content container with an image, title, text, and buttons.  
+- Forms: Pre-styled input fields, checkboxes, radio buttons, and submit buttons.  
+- Bootstrap ensures that websites look good on all screen sizes.  
+- It includes visibility classes to show or hide elements based on screen size.  
+- Images and other elements automatically adjust to different devices.  
